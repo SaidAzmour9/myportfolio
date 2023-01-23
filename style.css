@@ -1,0 +1,213 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Khula', sans-serif;
+    background-color: rgb(49, 47, 47);
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    margin-top: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.logo{
+    font-family: 'Architects Daughter', cursive;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+    cursor: pointer;
+
+}
+nav ul li a:hover{
+    color: aqua;
+    text-transform: uppercase;
+}
+
+
+/* hero */
+
+.hero{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-info{
+    flex: 2;
+    padding: 20px 0 20px 20px;
+
+}
+
+.hero-info h2 {
+    font-size: 38px;
+    color: aqua;
+    
+}
+.hero-info p {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hero-info button{
+    margin-top: 10px;
+}
+.hero-img{
+    flex: 2;
+
+}
+.hero-img img {
+    width: 100%;
+}
+/* CSS */
+
+
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.wrapper .icon{
+    position: relative;
+    
+    border-radius: 50%;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    display: inline-block;
+    align-items: center;
+    
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    
+  }
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+  }
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+  }
+
+
+  .about {
+    margin: 20px 0;
+    display: flex;
+    border: #c2fbd7 solid 1px;
+    border-radius: 5px;
+    padding: 30px 10px;
+  }
+  .about:hover{
+    border: #002aff solid 3px;
+  }
+  .about-img img {
+    width: 70%;
+  }
+
+  .about .about-me {
+   text-transform: capitalize;
+
+  }
