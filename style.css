@@ -7,6 +7,9 @@
     padding: 0;
     margin: 0;
 }
+a {
+  text-decoration: none;
+}
 
 body{
   background-color: rgb(49, 47, 47);
@@ -334,3 +337,48 @@ nav ul li a:hover{
   .all-services .service-info img {
     width: 30%;
   }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .container{
+      width: 90%;
+      margin: auto;
+    }
+    a{
+      text-decoration: none;
+    }
+    .header{
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .hero{
+      padding: 10px 0;
+      margin: 0 0 0 10px;
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-info{
+      width: 95%;
+
+    }
+    .hero-img{
+      width: 95%;
+    }
+
+    .about{
+      padding: 10px 0;
+      margin: 0 0 0 10px;
+      flex-direction: column;
+      text-align: center;
+    }
+    .about-img{
+      width: 95%;
+    }
+    .about-me{
+      width: 95%;
+      word-wrap: break-word;
+    }
+
+    }
