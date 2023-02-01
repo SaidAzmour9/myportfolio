@@ -134,6 +134,10 @@ nav ul li a:hover{
   transition: all 0.5;
 }
 
+.project-item h2{
+  font-weight: 700;
+}
+
 .project-item img{
   width: 20px;
   margin-top: 7px;
@@ -291,7 +295,7 @@ nav ul li a:hover{
     width: 100%;
   }
 
-  .about .about-me {
+  .about-me {
    text-transform: capitalize;
    width: 50%;
    
@@ -318,12 +322,14 @@ nav ul li a:hover{
   .all-services{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
-  .all-services .service-info{
+  .service-info{
     width: 30%;
     border: #c2fbd7 solid 1px;
     text-align: center;
     padding: 10px;
+    justify-items: center;
   }
   .all-services .service-info:hover{
     box-shadow:
@@ -365,6 +371,7 @@ nav ul li a:hover{
     }
     .hero-img{
       width: 95%;
+      margin-bottom: 20px;
     }
 
     .about{
@@ -375,10 +382,30 @@ nav ul li a:hover{
     }
     .about-img{
       width: 95%;
+      margin-bottom: 20px;
     }
     .about-me{
       width: 95%;
       word-wrap: break-word;
+      margin-bottom: 20px;
+    }
+
+    .all-services{
+      flex-direction: column;
+    }
+    .service-info{
+      width: 90%;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+
+    .projects-content{
+      flex-direction: column;
+
+    }
+    .project-item{
+      width: 90%;
+      margin-bottom: 20px;
     }
 
     }
