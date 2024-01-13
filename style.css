@@ -410,3 +410,7 @@ nav ul li a:hover{
     }
 
     }
+
+    .animate__backInLeft, .animate__backInUp{
+      animation-duration: 3s;
+    }
