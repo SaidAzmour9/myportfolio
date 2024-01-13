@@ -405,6 +405,7 @@ nav ul li a:hover{
     }
     .project-item{
       width: 90%;
+      margin: auto;
       margin-bottom: 20px;
     }
 
