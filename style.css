@@ -414,3 +414,19 @@ nav ul li a:hover{
     .animate__backInLeft, .animate__backInUp{
       animation-duration: 3s;
     }
+
+    #deli{
+      position: relative;
+    }
+    #para{
+      position: absolute;
+      width: 100%;
+      background-color: #333333;
+      top: 30%;
+      text-align: center;
+      left: 0;
+      padding: 20px 0 20px 0;
+      border-radius: 20px;
+      color: #de463b;
+      display: none;
+    }
